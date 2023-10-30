@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Projection(name = "fullWallet",types = Wallet.class)
 public interface WalletProjection {
-    public Long getId();
+    public String getId();
     public double getSolde();
     public Date getDateCreation();
     public String getDevise();
