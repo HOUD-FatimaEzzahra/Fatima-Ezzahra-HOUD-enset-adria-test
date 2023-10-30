@@ -17,6 +17,8 @@ L'architecture de l'application repose sur un modèle de micro-services, favoris
 
 
 Base de donnees 
+
+
 ![walletDB](https://github.com/HOUD-FatimaEzzahra/Fatima-Ezzahra-HOUD-enset-adria-test/assets/85282175/d7f2e7fd-c0f6-44bc-bf78-39116d631f14)
 
 ## Interfaces utilisateurs 
