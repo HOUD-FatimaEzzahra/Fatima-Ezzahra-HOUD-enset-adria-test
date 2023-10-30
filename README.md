@@ -13,18 +13,15 @@ Cette section éclaire l'architecture globale du projet. Nous explorerons les gr
 Architecture de l’application 
 
 L'architecture de l'application repose sur un modèle de micro-services, favorisant la modularité et la scalabilité. Deux micro-services fonctionnels sont mis en place : le service de gestion des portefeuilles ("Wallet") et le service de gestion des transferts entre ceux-ci. Chaque portefeuille est associé à un client, défini par un identifiant unique, un nom et une adresse e-mail. Chaque portefeuille possède également son propre identifiant, un solde, une date de création et une devise. Les transferts entre portefeuilles sont caractérisés par un identifiant, une date, un portefeuille source, un portefeuille de destination, un montant et un état (en attente, validé, rejeté). En parallèle, l'architecture intègre des composants cruciaux pour la gestion et le déploiement des micro-services. Le service Gateway agit comme une passerelle pour toutes les requêtes entrantes, facilitant la distribution du trafic vers les micro-services appropriés. Le service Discovery permet une gestion dynamique des instances de micro-services, favorisant une tolérance aux pannes efficace. Un service de configuration assure une gestion centralisée et sécurisée de la configuration des micro-services. Pour documenter de manière exhaustive et accessible les web services RESTful, la spécification OpenAPI (Swagger) est utilisée. Cette architecture soigneusement conçue fournit une base solide pour le développement d'une application robuste et évolutive, répondant ainsi aux besoins de gestion de portefeuilles de devises et de transferts sécurisés entre ceux-ci.
-![arch](https://github.com/HOUD-FatimaEzzahra/Fatima-Ezzahra-HOUD-enset-adria-test/assets/85282175/9fbc526b-2b4f-4808-bca0-4a63118b1372)
-
+![arch.png](Captures%2Farch.png)
 
 Base de donnees 
 
-
-![walletDB](https://github.com/HOUD-FatimaEzzahra/Fatima-Ezzahra-HOUD-enset-adria-test/assets/85282175/d7f2e7fd-c0f6-44bc-bf78-39116d631f14)
+![walletDB.png](Captures%2FwalletDB.png)
 
 ## Interfaces utilisateurs 
 
 Les interfaces utilisateur jouent un rôle central dans l'expérience globale de l'application. Dans cette section, nous explorerons en détail les différentes parties de l'interface, des écrans d'accueil aux flux de travail spécifiques. À l'aide de captures d'écran, de maquettes et d'explications détaillées, nous guiderons les utilisateurs à travers les fonctionnalités de l'application, en mettant l'accent sur la convivialité et la facilité d'utilisation.
-![consul](https://github.com/HOUD-FatimaEzzahra/Fatima-Ezzahra-HOUD-enset-adria-test/assets/85282175/967a53e3-7e82-4527-aea2-57d8e78b15e8)
-
+![consul.png](Captures%2Fconsul.png)
 
 
