@@ -1,0 +1,32 @@
+<div class="container col-9 table-bordered" style="margin-top: 50px;">
+    <table class="table" *ngIf="customers">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>E-mail</td>
+                <td>Phone</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let c of customers._embedded.customers">
+                <td>{{c.id}}</td>
+                <td>{{c.firstname}}</td>
+                <td>{{c.email}}</td>
+                <td>{{c.phone}}</td>
+                <td>
+                    <button></button>
+                    <button></button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="pagination">
+    <pagination-controls [(page)]="currentPage" [itemsPerPage]="itemsPerPage"></pagination-controls>
+  </div>
+  
+
+
