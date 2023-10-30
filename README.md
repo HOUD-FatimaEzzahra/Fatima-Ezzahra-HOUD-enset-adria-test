@@ -24,4 +24,7 @@ Base de donnees
 Les interfaces utilisateur jouent un rôle central dans l'expérience globale de l'application. Dans cette section, nous explorerons en détail les différentes parties de l'interface, des écrans d'accueil aux flux de travail spécifiques. À l'aide de captures d'écran, de maquettes et d'explications détaillées, nous guiderons les utilisateurs à travers les fonctionnalités de l'application, en mettant l'accent sur la convivialité et la facilité d'utilisation.
 ![consul.png](Captures%2Fconsul.png)
 
+![test.png](Captures%2Ftest.png)
+
+
 
