@@ -16,6 +16,9 @@ L'architecture de l'application repose sur un modèle de micro-services, favoris
 ![arch](https://github.com/HOUD-FatimaEzzahra/Fatima-Ezzahra-HOUD-enset-adria-test/assets/85282175/9fbc526b-2b4f-4808-bca0-4a63118b1372)
 
 
+Base de donnees 
+![walletDB](https://github.com/HOUD-FatimaEzzahra/Fatima-Ezzahra-HOUD-enset-adria-test/assets/85282175/d7f2e7fd-c0f6-44bc-bf78-39116d631f14)
+
 ## Interfaces utilisateurs 
 
 Les interfaces utilisateur jouent un rôle central dans l'expérience globale de l'application. Dans cette section, nous explorerons en détail les différentes parties de l'interface, des écrans d'accueil aux flux de travail spécifiques. À l'aide de captures d'écran, de maquettes et d'explications détaillées, nous guiderons les utilisateurs à travers les fonctionnalités de l'application, en mettant l'accent sur la convivialité et la facilité d'utilisation.
